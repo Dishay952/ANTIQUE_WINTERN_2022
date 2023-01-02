@@ -28,4 +28,4 @@ I have also plotted the autocorrelation and partial autocorrelation plots for th
 Linear Regression model for Close price\
 NIFTY Close Price (y) = 1.18 * 3 Days Moving Average (x1) + -0.18 * 9 Days Moving Average (x2) + 3.94 (constant)\
 Linear Regression model for Open price\
-NIFTY Open Price (y) = 1.19 * 3 Days Moving Average (x1) + -0.19 * 9 Days Moving Average (x2) + 3.73 (constant)\
+NIFTY Open Price (y) = 1.19 * 3 Days Moving Average (x1) + -0.19 * 9 Days Moving Average (x2) + 3.73 (constant)

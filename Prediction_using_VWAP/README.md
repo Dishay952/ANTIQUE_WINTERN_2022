@@ -8,10 +8,10 @@
 I have used the **VWAP** price of the stock to predict the stock price. 
 ### I have used 50 historical observation to predict the next future observation.
 I have used the following models to predict the stock price:
-1. Single Layered RNN (Recurrent Neural Network)
+1. Single Layered RNN (Recurrent Neural Network)\
 The root mean square error of the model is 12.73
-2. Double Layered RNN
+2. Double Layered RNN\
 The root mean square error of the model is 11.86
-2. LSTM (Long Short Term Memory)
+2. LSTM (Long Short Term Memory)\
 The root mean square error of the model is 14.28
 
