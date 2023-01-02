@@ -9,11 +9,11 @@ I have used the following models to predict the stock price:
 1. Linear Regression with explanatory variables as 4 day returns and dependent variable as 5 day returns\
 The predicted linear regression model is:\
 Returns_5D(y) = 1.00 * Returns_4D(x1) + 0.04 (constant)\
-The root mean square error of the model is 0.7123\
+The root mean squared error of the model is 0.7123 \
 2. Linear Regression with explanatory variables as 3 day returns and 4 day returns and dependent variable as 5 day returns
-The predicted linear regression model is:
-Returns_5D(y) = -0.09 * Returns_3D(x1) + 1.07 * Returns_4D(x2)) + 0.04 (constant)
-The root mean square error of the model is 0.7126
+The predicted linear regression model is:\
+Returns_5D(y) = -0.09 * Returns_3D(x1) + 1.07 * Returns_4D(x2)) + 0.04 (constant)\
+The root mean square error of the model is 0.7126 \
 3. Linear Regression with explanatory variables as 3 day returns and 4 day returns and an interactive term for non-linearity and dependent variable as 5 day returns
 The predicted linear regression model is:
 Returns_5D(y) = -0.09 * Returns_3D(x1) + 1.07 * Returns_4D(x2)) + -0.02 * Interactive_term(x1*x2)) + 0.09 (constant)
