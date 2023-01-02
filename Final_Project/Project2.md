@@ -1,6 +1,6 @@
 # Project 2 - Calculating the Final Investment Value of a stock portfolio using MultiClass Classification
 ### By: [Dishay Mehta]()
-### Date: 2022-12-24
+### Date: 2022-12-27
 ### Tags: Stock Market, Technical Indicators, Machine Learning, Python, Pandas, Scikit-Learn, Matplotlib, Seaborn, Jupyter Notebook
 
 ## For Project_part2.ipynb,
@@ -58,7 +58,7 @@ test loss 159.07473754882812
 
 ### Calculating the predicted returns and actual returns for the 30 mins holding period.
 I have used the following formula to calculate the returns:\
-Returns = (Close Price after 30 mins - Close Price) / Close Price
+> Returns = (Close Price after 30 mins - Close Price) / Close Price
 
 ### Now comes the multi-class classification part.
 The dataframe created from model 9 is then used to create a new columns for predicted label and actual label, where\
@@ -71,7 +71,7 @@ We define the profit returns as **actual returns * predicted returns**\
 We then calculate the profit returns for each day and then calculate the cumulative profit returns\
 Since the holding period is 30 minutes so we can only make 1 trade in the 30 minutes of trading time. Thus the data is trimmed accordingly\
 We then esitmate the number of trades and the final investment value using the following formula:\
-Final Investment Value = Initial Investment Value * (1 + Profit Returns)
+> Final Investment Value = Initial Investment Value * (1 + Profit Returns)
 
 
 
