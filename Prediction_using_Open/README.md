@@ -7,5 +7,5 @@
 ### So I have done series of analysis on the stock price of Adani Ports and Special Economic Zone Limited.
 I have used the **open** price of the stock to predict the stock price. 
 ### I have used the following models to predict the stock price:
-1. LSTM (Long Short Term Memory)
+1. LSTM (Long Short Term Memory)\
 The root mean square error of the model is 32.91
